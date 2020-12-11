@@ -104,6 +104,9 @@ def database_check(metadata_path, images_index):
     metadata = open(metadata_path + "metadata.csv", "r")
     test_results = open(metadata_path + "resultados.txt", "w")
 
+    total_matches = len(images_index)
+    right_matches = 0
+
     # image_input is the first image of the list (24306)
     # all the test were made with it
     for line in metadata:
@@ -133,13 +136,22 @@ def database_check(metadata_path, images_index):
             # compare the image_id of the list with the img of the distances_list
             # (aka. is this line == the image that is on the first 'for')
             if (words[1] == current_name):
+
                 # compare if the dx was the same (same desease)
                 if(words[2] == image_input[2]):
-                    string_result = "Match =============================\nImage:\n" + str(words) + "\n" + str(image_input)
+                    right_matches += 1
+                    string_result = "Match =============================\nImage:\n" + str(words) + "\n"
                     string_result += "Dado que os resultados são imagens proximas da primeira imagem\npor comparação de histogramas, a imagem " + current_name + " se aproxima do diagnostico\nda primeira imagem corretamente! (seguindo os resultados já disponiveis na metadata)\n\n"
                     print(string_result)
                     test_results.write(string_result)
 
         metadata.seek(0)
+
+    accurac = (right_matches * 100)/total_matches
+    string_result = "+++++++++++++++++++++++++\nTotal matches: " + str(total_matches) + "\nRight Matches: " + str(right_matches) + "\nAccuracy: " + str(accurac)
+
+    print(string_result)
+
+    test_results.write(string_result)
 
 main()

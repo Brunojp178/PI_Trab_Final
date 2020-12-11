@@ -194,3 +194,7 @@ Image:
 por comparação de histogramas, a imagem ISIC_0024601 se aproxima do diagnostico
 da primeira imagem corretamente! (seguindo os resultados já disponiveis na metadata)
 
++++++++++++++++++++++++++
+Total matches: 28
+Right Matches: 28
+Accuracy: 100.0
