@@ -11,7 +11,7 @@ def main():
 
     # path of the dir where the images're located
     images_path = 'C:/Users/Karen Reis/Desktop/PI_Trab_Final/database/HAM10000_images_part_1'
-    csv_path = 'C:/Users/Karen Reis/Desktop/PI_Trab_Final/database/metadata.csv'
+    csv_path = 'C:/Users/Karen Reis/Desktop/PI_Trab_Final/database/'
 
     # the images_list will have the same indexs as the distances list
     # 'cause the images're in crescent order
@@ -30,8 +30,11 @@ def main():
         if (distances[i] < distance_threshhold):
             images_2_check.append(24306 + i)
 
+    database_check(csv_path, images_2_check)
+
 # The first image on the list is the image to compare
 def calculateHist(imageList):
+    # Image 24306 is the image_input
     image_input = imageList[0]
 
     histograms = []
@@ -95,21 +98,28 @@ def load_database_images(path):
     # return the list of the images in hsv format
     return images
 
-def database_check(metadata_path, images):
+def database_check(metadata_path, images_index):
 
     # load the metadata.csv
-    metadata = open(metadata_path, "r")
+    metadata = open(metadata_path + "metadata.csv", "r")
+    test_results = open(metadata_path + "resultados.txt", "w")
+
+    # image_input is the first image of the list (24306)
+    # all the test were made with it
+    for line in metadata:
+        words = line.split(",")
+        if (words[1] == "ISIC_0024306"):
+            image_input = line
+            image_input = image_input.split(',')
+
+    metadata.seek(0)
 
     # to every image, read the file to find the metadata, compare to the first one and see if the dx and bodypart was the same
-    for img in images:
+    for img in images_index:
         # reads the file:
         current_name = "ISIC_00" + str(img)
 
         for line in metadata:
-            # image_input is the first image of the list (24306)
-            # all the test were made with it
-            image_input = metadata[0].split(',')
-
             # Words = an entire line, separated by ","
             # words[0] = lesion_id
             # words[1] = image_id  <--- want that
@@ -120,12 +130,16 @@ def database_check(metadata_path, images):
             # words[6] = localization <----- want this too
             words = line.split(",")
 
-            # compare the image_id of the list with the img of the distance results
-            # (aka. is this line the image that is on the first for)
+            # compare the image_id of the list with the img of the distances_list
+            # (aka. is this line == the image that is on the first 'for')
             if (words[1] == current_name):
                 # compare if the dx was the same (same desease)
                 if(words[2] == image_input[2]):
-                    print("Teria acertado um possivel cancer baseado na primeira imagem da base")
+                    string_result = "Match =============================\nImage:\n" + str(words) + "\n" + str(image_input)
+                    string_result += "Dado que os resultados são imagens proximas da primeira imagem\npor comparação de histogramas, a imagem " + current_name + " se aproxima do diagnostico\nda primeira imagem corretamente! (seguindo os resultados já disponiveis na metadata)\n\n"
+                    print(string_result)
+                    test_results.write(string_result)
 
+        metadata.seek(0)
 
 main()

@@ -1,0 +1,196 @@
+Match =============================
+Image:
+['HAM_0002718', 'ISIC_0024316', 'nv', 'follow_up', '55.0', 'male', 'back\n']
+['HAM_0000550', 'ISIC_0024306', 'nv', 'follow_up', '45.0', 'male', 'trunk\n']Dado que os resultados são imagens proximas da primeira imagem
+por comparação de histogramas, a imagem ISIC_0024316 se aproxima do diagnostico
+da primeira imagem corretamente! (seguindo os resultados já disponiveis na metadata)
+
+Match =============================
+Image:
+['HAM_0005039', 'ISIC_0024320', 'nv', 'follow_up', '65.0', 'male', 'trunk\n']
+['HAM_0000550', 'ISIC_0024306', 'nv', 'follow_up', '45.0', 'male', 'trunk\n']Dado que os resultados são imagens proximas da primeira imagem
+por comparação de histogramas, a imagem ISIC_0024320 se aproxima do diagnostico
+da primeira imagem corretamente! (seguindo os resultados já disponiveis na metadata)
+
+Match =============================
+Image:
+['HAM_0003511', 'ISIC_0024321', 'nv', 'follow_up', '35.0', 'male', 'lower extremity\n']
+['HAM_0000550', 'ISIC_0024306', 'nv', 'follow_up', '45.0', 'male', 'trunk\n']Dado que os resultados são imagens proximas da primeira imagem
+por comparação de histogramas, a imagem ISIC_0024321 se aproxima do diagnostico
+da primeira imagem corretamente! (seguindo os resultados já disponiveis na metadata)
+
+Match =============================
+Image:
+['HAM_0002044', 'ISIC_0024325', 'nv', 'follow_up', '40.0', 'female', 'trunk\n']
+['HAM_0000550', 'ISIC_0024306', 'nv', 'follow_up', '45.0', 'male', 'trunk\n']Dado que os resultados são imagens proximas da primeira imagem
+por comparação de histogramas, a imagem ISIC_0024325 se aproxima do diagnostico
+da primeira imagem corretamente! (seguindo os resultados já disponiveis na metadata)
+
+Match =============================
+Image:
+['HAM_0001812', 'ISIC_0024326', 'nv', 'follow_up', '75.0', 'male', 'back\n']
+['HAM_0000550', 'ISIC_0024306', 'nv', 'follow_up', '45.0', 'male', 'trunk\n']Dado que os resultados são imagens proximas da primeira imagem
+por comparação de histogramas, a imagem ISIC_0024326 se aproxima do diagnostico
+da primeira imagem corretamente! (seguindo os resultados já disponiveis na metadata)
+
+Match =============================
+Image:
+['HAM_0001112', 'ISIC_0024359', 'nv', 'follow_up', '40.0', 'male', 'back\n']
+['HAM_0000550', 'ISIC_0024306', 'nv', 'follow_up', '45.0', 'male', 'trunk\n']Dado que os resultados são imagens proximas da primeira imagem
+por comparação de histogramas, a imagem ISIC_0024359 se aproxima do diagnostico
+da primeira imagem corretamente! (seguindo os resultados já disponiveis na metadata)
+
+Match =============================
+Image:
+['HAM_0001758', 'ISIC_0024362', 'nv', 'follow_up', '50.0', 'male', 'trunk\n']
+['HAM_0000550', 'ISIC_0024306', 'nv', 'follow_up', '45.0', 'male', 'trunk\n']Dado que os resultados são imagens proximas da primeira imagem
+por comparação de histogramas, a imagem ISIC_0024362 se aproxima do diagnostico
+da primeira imagem corretamente! (seguindo os resultados já disponiveis na metadata)
+
+Match =============================
+Image:
+['HAM_0004535', 'ISIC_0024364', 'nv', 'follow_up', '45.0', 'male', 'upper extremity\n']
+['HAM_0000550', 'ISIC_0024306', 'nv', 'follow_up', '45.0', 'male', 'trunk\n']Dado que os resultados são imagens proximas da primeira imagem
+por comparação de histogramas, a imagem ISIC_0024364 se aproxima do diagnostico
+da primeira imagem corretamente! (seguindo os resultados já disponiveis na metadata)
+
+Match =============================
+Image:
+['HAM_0003297', 'ISIC_0024373', 'nv', 'follow_up', '60.0', 'male', 'abdomen\n']
+['HAM_0000550', 'ISIC_0024306', 'nv', 'follow_up', '45.0', 'male', 'trunk\n']Dado que os resultados são imagens proximas da primeira imagem
+por comparação de histogramas, a imagem ISIC_0024373 se aproxima do diagnostico
+da primeira imagem corretamente! (seguindo os resultados já disponiveis na metadata)
+
+Match =============================
+Image:
+['HAM_0000984', 'ISIC_0024376', 'nv', 'follow_up', '45.0', 'male', 'trunk\n']
+['HAM_0000550', 'ISIC_0024306', 'nv', 'follow_up', '45.0', 'male', 'trunk\n']Dado que os resultados são imagens proximas da primeira imagem
+por comparação de histogramas, a imagem ISIC_0024376 se aproxima do diagnostico
+da primeira imagem corretamente! (seguindo os resultados já disponiveis na metadata)
+
+Match =============================
+Image:
+['HAM_0001029', 'ISIC_0024384', 'nv', 'follow_up', '35.0', 'male', 'lower extremity\n']
+['HAM_0000550', 'ISIC_0024306', 'nv', 'follow_up', '45.0', 'male', 'trunk\n']Dado que os resultados são imagens proximas da primeira imagem
+por comparação de histogramas, a imagem ISIC_0024384 se aproxima do diagnostico
+da primeira imagem corretamente! (seguindo os resultados já disponiveis na metadata)
+
+Match =============================
+Image:
+['HAM_0004064', 'ISIC_0024399', 'nv', 'follow_up', '50.0', 'female', 'back\n']
+['HAM_0000550', 'ISIC_0024306', 'nv', 'follow_up', '45.0', 'male', 'trunk\n']Dado que os resultados são imagens proximas da primeira imagem
+por comparação de histogramas, a imagem ISIC_0024399 se aproxima do diagnostico
+da primeira imagem corretamente! (seguindo os resultados já disponiveis na metadata)
+
+Match =============================
+Image:
+['HAM_0001792', 'ISIC_0024419', 'nv', 'follow_up', '35.0', 'female', 'lower extremity\n']
+['HAM_0000550', 'ISIC_0024306', 'nv', 'follow_up', '45.0', 'male', 'trunk\n']Dado que os resultados são imagens proximas da primeira imagem
+por comparação de histogramas, a imagem ISIC_0024419 se aproxima do diagnostico
+da primeira imagem corretamente! (seguindo os resultados já disponiveis na metadata)
+
+Match =============================
+Image:
+['HAM_0001879', 'ISIC_0024440', 'nv', 'follow_up', '40.0', 'male', 'back\n']
+['HAM_0000550', 'ISIC_0024306', 'nv', 'follow_up', '45.0', 'male', 'trunk\n']Dado que os resultados são imagens proximas da primeira imagem
+por comparação de histogramas, a imagem ISIC_0024440 se aproxima do diagnostico
+da primeira imagem corretamente! (seguindo os resultados já disponiveis na metadata)
+
+Match =============================
+Image:
+['HAM_0003612', 'ISIC_0024456', 'nv', 'follow_up', '75.0', 'female', 'back\n']
+['HAM_0000550', 'ISIC_0024306', 'nv', 'follow_up', '45.0', 'male', 'trunk\n']Dado que os resultados são imagens proximas da primeira imagem
+por comparação de histogramas, a imagem ISIC_0024456 se aproxima do diagnostico
+da primeira imagem corretamente! (seguindo os resultados já disponiveis na metadata)
+
+Match =============================
+Image:
+['HAM_0004266', 'ISIC_0024483', 'nv', 'follow_up', '25.0', 'female', 'upper extremity\n']
+['HAM_0000550', 'ISIC_0024306', 'nv', 'follow_up', '45.0', 'male', 'trunk\n']Dado que os resultados são imagens proximas da primeira imagem
+por comparação de histogramas, a imagem ISIC_0024483 se aproxima do diagnostico
+da primeira imagem corretamente! (seguindo os resultados já disponiveis na metadata)
+
+Match =============================
+Image:
+['HAM_0006172', 'ISIC_0024485', 'nv', 'follow_up', '60.0', 'male', 'upper extremity\n']
+['HAM_0000550', 'ISIC_0024306', 'nv', 'follow_up', '45.0', 'male', 'trunk\n']Dado que os resultados são imagens proximas da primeira imagem
+por comparação de histogramas, a imagem ISIC_0024485 se aproxima do diagnostico
+da primeira imagem corretamente! (seguindo os resultados já disponiveis na metadata)
+
+Match =============================
+Image:
+['HAM_0003783', 'ISIC_0024488', 'nv', 'follow_up', '55.0', 'female', 'trunk\n']
+['HAM_0000550', 'ISIC_0024306', 'nv', 'follow_up', '45.0', 'male', 'trunk\n']Dado que os resultados são imagens proximas da primeira imagem
+por comparação de histogramas, a imagem ISIC_0024488 se aproxima do diagnostico
+da primeira imagem corretamente! (seguindo os resultados já disponiveis na metadata)
+
+Match =============================
+Image:
+['HAM_0007330', 'ISIC_0024521', 'nv', 'follow_up', '45.0', 'female', 'trunk\n']
+['HAM_0000550', 'ISIC_0024306', 'nv', 'follow_up', '45.0', 'male', 'trunk\n']Dado que os resultados são imagens proximas da primeira imagem
+por comparação de histogramas, a imagem ISIC_0024521 se aproxima do diagnostico
+da primeira imagem corretamente! (seguindo os resultados já disponiveis na metadata)
+
+Match =============================
+Image:
+['HAM_0001278', 'ISIC_0024527', 'nv', 'follow_up', '50.0', 'male', 'trunk\n']
+['HAM_0000550', 'ISIC_0024306', 'nv', 'follow_up', '45.0', 'male', 'trunk\n']Dado que os resultados são imagens proximas da primeira imagem
+por comparação de histogramas, a imagem ISIC_0024527 se aproxima do diagnostico
+da primeira imagem corretamente! (seguindo os resultados já disponiveis na metadata)
+
+Match =============================
+Image:
+['HAM_0000224', 'ISIC_0024542', 'nv', 'follow_up', '40.0', 'male', 'upper extremity\n']
+['HAM_0000550', 'ISIC_0024306', 'nv', 'follow_up', '45.0', 'male', 'trunk\n']Dado que os resultados são imagens proximas da primeira imagem
+por comparação de histogramas, a imagem ISIC_0024542 se aproxima do diagnostico
+da primeira imagem corretamente! (seguindo os resultados já disponiveis na metadata)
+
+Match =============================
+Image:
+['HAM_0002385', 'ISIC_0024549', 'nv', 'follow_up', '65.0', 'male', 'trunk\n']
+['HAM_0000550', 'ISIC_0024306', 'nv', 'follow_up', '45.0', 'male', 'trunk\n']Dado que os resultados são imagens proximas da primeira imagem
+por comparação de histogramas, a imagem ISIC_0024549 se aproxima do diagnostico
+da primeira imagem corretamente! (seguindo os resultados já disponiveis na metadata)
+
+Match =============================
+Image:
+['HAM_0001247', 'ISIC_0024557', 'nv', 'follow_up', '40.0', 'male', 'back\n']
+['HAM_0000550', 'ISIC_0024306', 'nv', 'follow_up', '45.0', 'male', 'trunk\n']Dado que os resultados são imagens proximas da primeira imagem
+por comparação de histogramas, a imagem ISIC_0024557 se aproxima do diagnostico
+da primeira imagem corretamente! (seguindo os resultados já disponiveis na metadata)
+
+Match =============================
+Image:
+['HAM_0004518', 'ISIC_0024578', 'nv', 'histo', '35.0', 'female', 'upper extremity\n']
+['HAM_0000550', 'ISIC_0024306', 'nv', 'follow_up', '45.0', 'male', 'trunk\n']Dado que os resultados são imagens proximas da primeira imagem
+por comparação de histogramas, a imagem ISIC_0024578 se aproxima do diagnostico
+da primeira imagem corretamente! (seguindo os resultados já disponiveis na metadata)
+
+Match =============================
+Image:
+['HAM_0004652', 'ISIC_0024583', 'nv', 'follow_up', '45.0', 'male', 'back\n']
+['HAM_0000550', 'ISIC_0024306', 'nv', 'follow_up', '45.0', 'male', 'trunk\n']Dado que os resultados são imagens proximas da primeira imagem
+por comparação de histogramas, a imagem ISIC_0024583 se aproxima do diagnostico
+da primeira imagem corretamente! (seguindo os resultados já disponiveis na metadata)
+
+Match =============================
+Image:
+['HAM_0004230', 'ISIC_0024585', 'nv', 'follow_up', '45.0', 'female', 'back\n']
+['HAM_0000550', 'ISIC_0024306', 'nv', 'follow_up', '45.0', 'male', 'trunk\n']Dado que os resultados são imagens proximas da primeira imagem
+por comparação de histogramas, a imagem ISIC_0024585 se aproxima do diagnostico
+da primeira imagem corretamente! (seguindo os resultados já disponiveis na metadata)
+
+Match =============================
+Image:
+['HAM_0004802', 'ISIC_0024596', 'nv', 'histo', '45.0', 'female', 'back\n']
+['HAM_0000550', 'ISIC_0024306', 'nv', 'follow_up', '45.0', 'male', 'trunk\n']Dado que os resultados são imagens proximas da primeira imagem
+por comparação de histogramas, a imagem ISIC_0024596 se aproxima do diagnostico
+da primeira imagem corretamente! (seguindo os resultados já disponiveis na metadata)
+
+Match =============================
+Image:
+['HAM_0001874', 'ISIC_0024601', 'nv', 'follow_up', '40.0', 'female', 'trunk\n']
+['HAM_0000550', 'ISIC_0024306', 'nv', 'follow_up', '45.0', 'male', 'trunk\n']Dado que os resultados são imagens proximas da primeira imagem
+por comparação de histogramas, a imagem ISIC_0024601 se aproxima do diagnostico
+da primeira imagem corretamente! (seguindo os resultados já disponiveis na metadata)
+
