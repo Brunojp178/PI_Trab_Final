@@ -1,4 +1,4 @@
-#Trabalho final de Processamento de Imagens
+<h1>Trabalho final de Processamento de Imagens<h1>
 
 Reposítorio para o código do trabalho final da matéria
 
